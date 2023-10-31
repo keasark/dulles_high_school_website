@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Campaigns Webpage */
+.coll1, .coll2, .coll3, .coll4, .coll5 
+{
+	display: block;
+	padding: 2px;
+	text-align: left;
+	width: 100%;
+}
+.camp
+{
+    background: #5463f1e7;
+    color: white;
+}
+.camp-content
+{
+	display: block;
+	float: left;
+	margin-left: 35px;
+}
+.data-fund
+{
+	display: block;
+	float: right;
+	text-align: left;
+	margin-right: 35px;
+	padding: 55px;
+	color: white;
+}
+
+

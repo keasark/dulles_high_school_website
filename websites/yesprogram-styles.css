@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+/* 	yesprogram-styles.css is generated for supporting the design styles of DHS: Y.E.S. Program website.
+	Author: Xuan Mai, Tran
+	Created Date: 09/05/2020
+	Updated: 09/15/2020
+*/
+
+
+/* Structure Styles*/
+aside.yes_info
+{
+	color: midnightblue; 
+	background-color:white;
+}
+aside
+{
+	background-color: midnightblue;
+	
+}
+aside h4
+{
+	color: white;
+	padding: 0px;
+}
+
+h4
+{
+	text-align: center;
+	font-size: 110%;
+	color: white;
+}
+h5
+{
+	text-align: center;
+	font-size: 110%;
+	color: white;
+}
+
+body
+{	
+	text-align: center;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+header h1
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color:midnightblue;
+	text-align: center;
+	font-size: 400%;
+}
+
+header h3
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	color: midnightblue;
+	font-size: 220%;
+}
+
+#account
+{
+	color: midnightblue;
+	font-size: 250%;
+}
+
+#acc_instruction
+{
+	color: white;
+	font-size: 150%;
+}
+
+#child_header
+{
+	background-color: white;
+}
+
+#child_main 
+{
+	background-color: midnightblue;
+	color: white;
+}
+
+article
+{
+	color: midnightblue;
+	background-color: white;
+	border: 2px solid darkblue;
+	padding: 5px;
+	margin: 15px;
+}
+
+article > p
+{
+	color: midnightblue;
+	background-color: white;
+}
+
+dt
+{
+	background-color: white;
+	color: midnightblue;
+}
+
+footer
+{
+	text-align: center;
+	font-family: Consolas;
+	font-size: 90%;
+}
+
+
+
+/* Definition List Styles */
+dt#purpose
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-size: 120%;
+}
+dt#yes_program
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-size: 120%;
+}
+dd
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: left;
+	font-size: 120%;
+}
+
+
+
+/* Navigation Styles */
+nav ul
+{
+	text-align:left;
+	list-style-type: none;
+    line-height: 2em;
+    font-size: 1.0em;
+	
+}
+nav#page_nav ul li a:link 
+{
+    color: white;
+    text-decoration: none;
+}
+nav#page_nav ul li a:visited
+{
+	color: indianred;
+	text-decoration: none;
+}
+nav#page_nav ul li a:hover, nav a:active 
+{
+    color: greenyellow;
+	text-decoration: none;
+	background-color: gray;
+}
+nav#page_nav ul li a.active 
+{
+  background-color: #4CAF50;
+  color: white;
+}
+nav#page_nav ul li a
+{
+	background-color: midnightblue;
+}
+
+
+/* Graphic Styles */
+img
+{
+	align-item: center;
+}
+
+button
+{
+	align: center;
+	font-family: cambria;
+	font-size: 120%;
+	background-color: white;
+	color:darkgreen;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px;
+}

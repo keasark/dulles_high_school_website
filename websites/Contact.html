@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-US">
+<!--
+	Author: Xuan Mai, Tran
+	Starting Date: Sep 5, 2020
+	Updated: 
+-->
+<head>
+	<meta charset="utf-8">
+	<title>Admin Account</title>
+	<link href="Layout.css" rel="stylesheet" type="text/css">
+	<link href="Contact-form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container">
+  <header>
+    <div class="primary_header">
+      <h1 class="title">Dulles High School</h1>
+		<h3>Youth Expanding Services (Y.E.S.) Program</h3>
+    </div>
+    <nav class="secondary_header" id="menu">
+		<ul>
+		<li>
+			<a href="Index.html">HOME</a>
+		</li>
+		<li>
+			<a href="Campaigns.html">CAMPAIGNS</a>
+		</li>
+		<li>
+			<a href="Donation.html">DONATION</a>
+		</li>
+		<li>
+			<a href="Admin.html">ADMIN</a>
+		</li>
+		<li>
+			<a href="Student.html">STUDENT</a>
+		</li>
+			<li>
+			<a href="Contact.html">CONTACT</a>
+		</li>
+	  </ul>
+    </nav>
+  </header>
+
+	<div id="contact-us"><h2>Contact Us</h2></div>
+	<div class="container">
+  		<form>
+    		<label for="fname">First Name</label>
+    		<input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+
+    		<label for="lname">Last Name</label>
+    		<input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+
+    		<label for="campaigns">Volunteer Campaigns</label>
+    		<select id="campaigns" name="campaigns" required>
+      			<option value="0">-- Campaign --</option>
+				<option value="1">Texas Covid-19 Emergency</option>
+				<option value="2">Texas Food Assistance</option>
+				<option value="3">Texas Tutoring Services</option>
+				<option value="4">Texas Planting Trees</option>
+				<option value="5">Texas Home Support</option>
+
+    		</select>
+
+    		<label for="subject">Message</label>
+    		<textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+			<button id="submit">Submit</button>
+  		</form>
+		  <br><br>
+	<footer class="secondary_header footer">
+    <div class="copyright">&copy;2020 - <em>Y.E.S. Program &copy; All Rights Reserved</em></div>
+  </footer>
+	</div>
+
+</body>
+</html>
